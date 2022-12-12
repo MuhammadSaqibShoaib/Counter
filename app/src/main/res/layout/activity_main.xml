@@ -13,19 +13,26 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btn_inc"
             android:layout_width="176dp"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Incremeant" />
+            android:text="Incremeant"
+            android:onClick="Increment"
+            />
 
         <Button
+            android:id="@+id/btn_dec"
             android:layout_width="176dp"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Decremeant" />
+            android:text="Decremeant"
+            android:onClick="Decrement"
+            />
     </LinearLayout>
 
     <TextView
+        android:id="@+id/counter"
         android:layout_width="match_parent"
         android:layout_height="532dp"
         android:gravity="center"
@@ -39,9 +46,12 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/btn_res"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Reset" />
+            android:text="Reset"
+            android:onClick="Reset"
+            />
     </LinearLayout>
 
 
