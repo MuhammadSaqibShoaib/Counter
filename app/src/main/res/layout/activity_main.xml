@@ -19,7 +19,7 @@
             android:text="Incremeant" />
 
         <Button
-            android:layout_width="193dp"
+            android:layout_width="176dp"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="Decremeant" />
@@ -27,10 +27,22 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="532dp"
+        android:gravity="center"
         android:text="0"
-        android:textSize="92sp"
-        android:gravity="center" />
+        android:textSize="92sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Reset" />
+    </LinearLayout>
 
 
 
